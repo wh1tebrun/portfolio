@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+* {}
+
+
+
+.fade-in {
+
+    margin-top: 150px;
+    font-family: 'Mrs Saint Delafield', cursive;
+    animation: fadeIn 1s;
+    text-align: center;
+    font-size: 140px;
+
+}
+
+
+.line {
+
+    margin: -70px auto;
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    text-align: center;
+    animation: line 2s 1s;
+
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(80px);
+
+
+
+
+        opacity: 0;
+    }
+
+
+
+
+
+
+}
+
+@keyframes line {
+    0% {
+        width: 0;
+    }
+
+    60% {
+        width: 400px;
+    }
+    80% {
+        width: 400px;
+    }
+
+    100% {
+        width: 0;
+    }
+
+}
