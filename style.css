@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -26,11 +34,77 @@
 
 
 }
+.about-me{
+    margin-top: 800px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.skillwrap{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.skills{
+    margin: 1000px auto;
+    font-size: 50px;
+    text-align: left;
+}
+
+
+
+.body, html{
+    width: 100%;
+    height: 500vh;
+    overflow-x: hidden;
+}
+
+
+.line-about{
+    color: rgb(245, 241, 241);
+    font-size: 100px;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    white-space: nowrap;
+    z-index: -1;
+    font-family: 'Roboto Slab', serif;
+}
+.line-skills{
+    color: rgb(245, 241, 241);
+    font-size: 100px;
+    position: absolute;
+    top: 1100px;
+    right: 0;
+    white-space: nowrap;
+    z-index: -1;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.line-contact{
+    position: absolute;
+    top: 40%;
+    left: 2000px;
+    white-space: nowrap;
+}
+
+
+
+.relative{
+    position: relative;
+}
 
 
 @keyframes fadeIn {
     from {
-        transform: translateY(80px);
+        transform: translateY(-80px);
 
 
 
