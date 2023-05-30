@@ -22,127 +22,135 @@
         </div>
 
         <span class="back-home"> <a href="../index.html">Home</a></span>
-            <div class="phone-left">
-                <div class="game-1"><img src="imagesballoonsite/PhoneGameSS.png"><h2>TRY TO SURVIVE</h2>
-                    
+        <div class="phone-left">
+            <div class="game-1"><img src="imagesballoonsite/PhoneGameSS.png">
+                <h2>TRY TO SURVIVE</h2>
+
+            </div>
+            <p class="game-1">Avoid obstacles and survive. All you have to do is reach up.
+            </p>
+
+
+
+
+            <div class="line-in-game-content">
+
+                <h1>IN GAME</h1>
+
+
+            </div>
+
+
+            <!--image slider start-->
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1" checked>
+                    <input type="radio" name="radio-btn" id="radio2" checked>
+                    <input type="radio" name="radio-btn" id="radio3" checked>
+                    <input type="radio" name="radio-btn" id="radio4" checked>
+                    <input type="radio" name="radio-btn" id="radio5" checked>
+                    <input type="radio" name="radio-btn" id="radio6" checked>
+                    <input type="radio" name="radio-btn" id="radio7" checked>
+                    <input type="radio" name="radio-btn" id="radio8" checked>
+                    <input type="radio" name="radio-btn" id="radio9" checked>
+                    <input type="radio" name="radio-btn" id="radio10" checked>
+                    <input type="radio" name="radio-btn" id="radio11" checked>
+                    <input type="radio" name="radio-btn" id="radio12" checked>
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="imagesballoonsite/PhoneGameSS.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS8.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS9.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS10.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS11.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagesballoonsite/PhoneGameSS.png" alt="">
+
+
+
+
+
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                        <div class="auto-btn9"></div>
+                        <div class="auto-btn10"></div>
+                        <div class="auto-btn11"></div>
+                        <div class="auto-btn12"></div>
+                    </div>
+                    <!--automatic navigation end-->
                 </div>
-                <p class="game-1">Avoid obstacles and survive. All you have to do is reach up
-                </p>
-
-
-
-
-                <div class="line-in-game-content">
-
-                    <h1>IN GAME</h1>
-                    
-
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                    <label for="radio9" class="manual-btn"></label>
+                    <label for="radio10" class="manual-btn"></label>
+                    <label for="radio11" class="manual-btn"></label>
+                    <label for="radio12" class="manual-btn"></label>
                 </div>
+                <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+            <div>
+                <a href="https://www.youtube.com/@tekinege" target="_blank" class="btnx">Click For Videos</a>
+            </div>
+            <script type="text/javascript">
+                var counter = 2;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 12) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
 
-
-                <!--image slider start-->
-    <div class="slider">
-        <div class="slides">
-          <!--radio buttons start-->
-          <input type="radio" name="radio-btn" id="radio1" checked>
-          <input type="radio" name="radio-btn" id="radio2" checked>
-          <input type="radio" name="radio-btn" id="radio3" checked>
-          <input type="radio" name="radio-btn" id="radio4" checked>
-          <input type="radio" name="radio-btn" id="radio5" checked>
-          <input type="radio" name="radio-btn" id="radio6" checked>
-          <input type="radio" name="radio-btn" id="radio7" checked>
-          <input type="radio" name="radio-btn" id="radio8" checked>
-          <input type="radio" name="radio-btn" id="radio9" checked>
-          <input type="radio" name="radio-btn" id="radio10" checked>
-          <input type="radio" name="radio-btn" id="radio11" checked>
-          <input type="radio" name="radio-btn" id="radio12" checked>
-          <!--radio buttons end-->
-          <!--slide images start-->
-          <div class="slide first">
-            <img src="imagesballoonsite/PhoneGameSS.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS2.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS3.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS4.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS5.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS6.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS7.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS8.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS9.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS10.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS11.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="imagesballoonsite/PhoneGameSS.png" alt="">
-          </div>
-          <!--slide images end-->
-          <!--automatic navigation start-->
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-            <div class="auto-btn6"></div>
-            <div class="auto-btn7"></div>
-            <div class="auto-btn8"></div>
-            <div class="auto-btn9"></div>
-            <div class="auto-btn10"></div>
-            <div class="auto-btn11"></div>
-            <div class="auto-btn12"></div>
-          </div>
-          <!--automatic navigation end-->
-        </div>
-        <!--manual navigation start-->
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-          <label for="radio5" class="manual-btn"></label>
-          <label for="radio6" class="manual-btn"></label>
-          <label for="radio7" class="manual-btn"></label>
-          <label for="radio8" class="manual-btn"></label>
-          <label for="radio9" class="manual-btn"></label>
-          <label for="radio10" class="manual-btn"></label>
-          <label for="radio11" class="manual-btn"></label>
-          <label for="radio12" class="manual-btn"></label>
-        </div>
-        <!--manual navigation end-->
-      </div>
-      <!--image slider end-->
-  
-      <script type="text/javascript">
-      var counter = 2;
-      setInterval(function(){
-        document.getElementById('radio' + counter).checked = true;
-        counter++;
-        if(counter > 12){
-          counter = 1;
-        }
-      }, 5000);
-      </script>
-
-        <script src="balloongameapp.js"></script>
+            <script src="balloongameapp.js"></script>
 
 </body>
 
