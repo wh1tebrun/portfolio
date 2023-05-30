@@ -31,6 +31,21 @@ body {
     /* Firefox */
 }
 
+.back-home a{
+    color: rgb(172, 172, 172);
+    position: relative;
+    left: 1770px;
+    transform: translateX(-1770px);
+    bottom: 400px;
+    transform: translateY(-400px);
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Nunito Sans', sans-serif;
+    user-select: none;
+    text-decoration: none;
+
+}
+
 .header-text {
     padding: 180px;
     user-select: none;
