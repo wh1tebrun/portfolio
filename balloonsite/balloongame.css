@@ -6,6 +6,7 @@
     font-size: 80px;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    user-select: none;
 }
 
 
@@ -32,10 +33,12 @@ body {
 
 .header-text {
     padding: 180px;
+    user-select: none;
 }
 
 .game-1 {
     justify-content: space-between;
+    user-select: none;
 
 }
 
@@ -43,6 +46,7 @@ body {
     font-size: 40px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+    user-select: none;
 
 }
 
@@ -84,12 +88,11 @@ body {
 }
 
 
-.line-in-game-content {
+.line-in-game-content{
     color: rgb(245, 241, 241);
     font-size: 100px;
     position: absolute;
     padding-bottom: 300px;
-
     right: 0;
     white-space: nowrap;
     z-index: -1;
@@ -165,7 +168,7 @@ body {
 
 
 .manual-btn {
-    border: 2px solid #40D3DC;
+    border: 2px solid rgb(245, 241, 241);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -179,7 +182,7 @@ body {
 }
 
 .manual-btn:hover{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 
 }
 
@@ -232,7 +235,7 @@ body {
 }
 
 .navigation-auto div{
-    border: 2px solid #40D3DC;
+    border: 2px solid rgb(245, 241, 241);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -246,40 +249,40 @@ body {
 
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio5:checked ~ .navigation-auto .auto-btn5{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio6:checked ~ .navigation-auto .auto-btn6{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio7:checked ~ .navigation-auto .auto-btn7{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio8:checked ~ .navigation-auto .auto-btn8{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio9:checked ~ .navigation-auto .auto-btn9{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio10:checked ~ .navigation-auto .auto-btn10{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio11:checked ~ .navigation-auto .auto-btn11{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 #radio12:checked ~ .navigation-auto .auto-btn12{
-    background: #40D3DC;
+    background: rgb(245, 241, 241);
 }
 
 
