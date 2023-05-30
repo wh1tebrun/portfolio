@@ -7,6 +7,23 @@
     text-align: center;
     font-family: 'Roboto Slab', serif;
 }
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
 .header-text p {
 
     margin-top: -40px;
@@ -15,15 +32,30 @@
     font-family: 'Nunito Sans', sans-serif;
 
 }
-.phone-left img{
-    margin-top: 400px;
-    width: 1000px;
+
+.phone-left h2{
+    margin-right: 300px;
+    margin-top: -650px;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Nunito Sans', sans-serif;
 
 }
-.phone-right img{
+.phone-left p{
+    margin-right: 200px;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Nunito Sans', sans-serif;
 
-    
-    margin-top: 400px;
+}
+.phone-left img {
+
+    margin: 200px auto;
     width: 1000px;
+}
 
+
+.phone-right{
+    margin: 200px auto;
+    width: 1000px;
 }
