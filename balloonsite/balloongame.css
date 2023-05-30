@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+.header-text h1 {
+    font-size: 81px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.header-text p {
+
+    margin-top: -40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.phone-left img{
+    margin-top: 400px;
+    width: 1000px;
+
+}
+.phone-right img{
+
+    
+    margin-top: 400px;
+    width: 1000px;
+
+}
